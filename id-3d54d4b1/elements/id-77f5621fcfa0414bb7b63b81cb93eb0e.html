@@ -40,6 +40,9 @@
                     <!-- Properties -->
                     <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
 
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
 				</ul>
 
 				<!-- Tab panes -->
@@ -55,21 +58,21 @@ Additional information: Semantic and business rules as well as validation method
 
 Example: The following implementation is an example of how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): PEPPOL's data sharing agreements
 
-eira:iopDimension: Governance IoP
+IoP Dimension: Governance IoP, Behavioural IoP
 
-LOST view: OV-Data Spaces
+LOST view: Organisational view
 
-eira:iopSaliency: Agreements on Data Sharing are salient for governance and behavioural interoperability because (i) it sets the rules necessary for the security and quality assurance of the data to be exchanged, (ii) the agreements on data sharing indicate the business capabilities and technical resources agreed to execute the control on the security and quality of the data being that is exchanged. 
+Interoperability saliency: Agreements on Data Sharing are salient for governance and behavioural interoperability because (i) it sets the rules necessary for the security and quality assurance of the data to be exchanged, (ii) the agreements on data sharing indicate the business capabilities and technical resources agreed to execute the control on the security and quality of the data being that is exchanged. 
 
 Identifier: http://data.europa.eu/dr8/AgreementOnDataSharingContract
+
+eira:ID: http://data.europa.eu/dr8/AgreementOnDataSharingContract
 
 ABB name: eira:AgreementOnDataSharingContract
 
 EIRA concept: eira:ArchitectureBuildingBlock
 
-Last modification: 2022-01-20
-
-dct:identifier: http://data.europa.eu/dr8/AgreementOnDataSharingContract
+Last modification: 2022-20-01
 
 </div>
 					</div>
@@ -82,7 +85,190 @@ dct:identifier: http://data.europa.eu/dr8/AgreementOnDataSharingContract
 								</tr>
 							</thead>
 							<tbody>
-								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/AgreementOnDataSharingContract</td></tr><tr><td>dct:type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:AgreementOnDataSharingContract</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2022-01-20</td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Agreement on Data Sharing ABB is a Contract formalizing the information requirements, syntax bindings, protocols and semantic artefacts that must be used for the exchange of data. </td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Inspired in the works by ISA2 (e.g. SEMIC), and the EIF-related works</td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap">https://ec.europa.eu/isa2/isa2_en</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The following implementation is an example of how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): PEPPOL's data sharing agreements</td></tr><tr><td>eira:iopSaliency</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Agreements on Data Sharing are salient for governance and behavioural interoperability because (i) it sets the rules necessary for the security and quality assurance of the data to be exchanged, (ii) the agreements on data sharing indicate the business capabilities and technical resources agreed to execute the control on the security and quality of the data being that is exchanged. </td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Semantic and business rules as well as validation methods, artefacts and solutions are expected to be mentioned in the contract.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:ArchitectureBuildingBlock</td></tr><tr><td>eira:iopDimension</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Governance IoP</td></tr><tr><td>eira:iopDimension</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Behavioral IoP</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/AgreementOnDataSharingContract</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">OV-Data Spaces</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Organisational view</td></tr>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/AgreementOnDataSharingContract</td></tr><tr><td>dct:type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:AgreementOnDataSharingContract</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2024-01-28</td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Agreement on Data Sharing ABB is a Contract formalizing the information requirements, syntax bindings, protocols and semantic artefacts that must be used for the exchange of data. </td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Inspired in the works by ISA2 (e.g. SEMIC), and the EIF-related works</td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap">https://ec.europa.eu/isa2/isa2_en</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The following implementation is an example of how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): PEPPOL's data sharing agreements</td></tr><tr><td>eira:iopSaliency</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Agreements on Data Sharing are salient for governance and behavioural interoperability because (i) it sets the rules necessary for the security and quality assurance of the data to be exchanged, (ii) the agreements on data sharing indicate the business capabilities and technical resources agreed to execute the control on the security and quality of the data being that is exchanged. </td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Semantic and business rules as well as validation methods, artefacts and solutions are expected to be mentioned in the contract.</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:ArchitectureBuildingBlock</td></tr><tr><td>eira:iopDimension</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Governance IoP</td></tr><tr><td>eira:iopDimension</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Behavioral IoP</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Organisational view</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/AgreementOnDataSharingContract</td></tr><tr><td>eira:eifLayer</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Organisational</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-c98a6870933a44e788ccc0b55c471487">
+																	<td><a href="../views/id-c98a6870933a44e788ccc0b55c471487.html" target="view" title="Knowledge management viewpoint"> Knowledge management viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-8e27b5c8497e470387fe3ef2a02e63d9">
+																	<td><a href="../views/id-8e27b5c8497e470387fe3ef2a02e63d9.html" target="view" title="Digital Communication viewpoint"> Digital Communication viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-bd885fbe63544ac49e448af2b7a7d598">
+																	<td><a href="../views/id-bd885fbe63544ac49e448af2b7a7d598.html" target="view" title="Qualification management viewpoint"> Qualification management viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-41908e2c08dc4e1db765ed16f15943b5">
+																	<td><a href="../views/id-41908e2c08dc4e1db765ed16f15943b5.html" target="view" title="Digital Payments viewpoint"> Digital Payments viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-4b9fae85966b47089e8e6ea3786fa05f">
+																	<td><a href="../views/id-4b9fae85966b47089e8e6ea3786fa05f.html" target="view" title="Case and Workflow Management viewpoint"> Case and Workflow Management viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-6966516181334d3693d7d925bc76ad6e">
+																	<td><a href="../views/id-6966516181334d3693d7d925bc76ad6e.html" target="view" title="Digital Twin viewpoint"> Digital Twin viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-dda83056855b47ac989c5e9edd5d250f">
+																	<td><a href="../views/id-dda83056855b47ac989c5e9edd5d250f.html" target="view" title="Digital Invoicing viewpoint"> Digital Invoicing viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-56938555f761473994f7afc2a26e359c">
+																	<td><a href="../views/id-56938555f761473994f7afc2a26e359c.html" target="view" title="Organisational view"> Organisational view </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-28c20146a5a14e89b1b00346295a33e8">
+																	<td><a href="../views/id-28c20146a5a14e89b1b00346295a33e8.html" target="view" title="Contact management viewpoint"> Contact management viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-8fdb6e16123b45768b6cdd3bfb04f64d">
+																	<td><a href="../views/id-8fdb6e16123b45768b6cdd3bfb04f64d.html" target="view" title="Electronic Identification viewpoint"> Electronic Identification viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-cae27a3435ea49948f5ec3d5c7d6cfe2">
+																	<td><a href="../views/id-cae27a3435ea49948f5ec3d5c7d6cfe2.html" target="view" title="Digital Exchange viewpoint"> Digital Exchange viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-10e0cf5383b3403c9bd7df751b103c4d">
+																	<td><a href="../views/id-10e0cf5383b3403c9bd7df751b103c4d.html" target="view" title="Multimedia management viewpoint"> Multimedia management viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-824fc8dbd2c740d99f4ae664f9a9d87c">
+																	<td><a href="../views/id-824fc8dbd2c740d99f4ae664f9a9d87c.html" target="view" title="OV-Data Spaces"> OV-Data Spaces </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-1bfcf4ed4d194f7f85bfc50b672444dc.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+											<td><a href="../elements/id-4977ee29fc50404aa299656f90a0eba7.html" target="element"> eIdentification</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-2a1fa38913434914877d1cb6a87f6052.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+											<td><a href="../elements/id-70e64e98d0364c57b2d005aa3d12855c.html" target="element"> Interoperability Framework</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-516fa8ad085348bf891630c4e57da4f6.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+											<td><a href="../elements/id-653e5e712ff4455e81e6f1ad4274014d.html" target="element"> Waiting list Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-6569ef6d515b4dabbf7af705d30cf6af.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+											<td><a href="../elements/id-a3d8335390c54f079a0ea862b7acca9c.html" target="element"> Anonymisation</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-760e883571724b8e97f456f55a6de15c.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+											<td><a href="../elements/id-3994136175764deca83172aba59082d9.html" target="element"> eQualification</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-83d75bbf06b0441dab671db7ac577ef7.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+											<td><a href="../elements/id-3db195224b094f879fe657d7bea27dde.html" target="element"> Secure Access Control</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-892c4606717b47e4b1b8565826ae910d.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+											<td><a href="../elements/id-2be5eb5382054619922ba9d71324f48b.html" target="element"> Data Extraction, Transformation and Loading</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-9403ec31739f4e5ab08f295a71cbc683.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+											<td><a href="../elements/id-bed18439807e45c3a449ab9d4ef57237.html" target="element"> Audit</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-942603be68db48bfb2f85eba750e46da.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+											<td><a href="../elements/id-3c0c652408284bab91e4c46af96cee14.html" target="element"> Delegation of Power</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-cc46e527453e45c78ccc02286c963430.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+											<td><a href="../elements/id-069ce8640f224c7f86791aaf6905231a.html" target="element"> Forms Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-dcb93554d20d4699940206ed94da6d96.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-deae1152f5794e05b9a2fc9fc4062f4a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+											<td><a href="../elements/id-5922f5d5bb544bdb97f8524ecf01b027.html" target="element"> Knowledge Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-e832487ff695402fbbd0d51c670a0a16.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+											<td><a href="../elements/id-8adeed6de2bc48bb8882810d14e31a26.html" target="element"> eDelivery</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-f2bc2f7c68934c0781a5ce4e49867064.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+											<td><a href="../elements/id-95a23f9ae7cb47dfa162a2dd9d476e6a.html" target="element"> eNotification</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-eeeb672af2be4ea1899dc24616ef69f0.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-SpecializationRelationship" /></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+											<td><a href="../elements/id-3e9ea5551d074d52ae297e3e535c440e.html" target="element"> Organisational Interoperability Agreement</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-2a5f53e3fa0b4eb3a103fcc5e8256239.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-f832d16752684180a2f5f578a6e74325.html" target="element"> ePayment</a></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-461a1d6458314dbbb4ecbc01cfcc84b8.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-afecb044fb804bab989517bac7e9f320.html" target="element"> Digital Asset Management</a></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-93a47e99cd354292b043e208b3287ea6.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-85577d24b968425ca76eee83fc7de93f.html" target="element"> Digital Collaboration</a></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-adaa9647d5154a239e7be66b7c6d7a80.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-efa0da168db34261bebe318e236c39a4.html" target="element"> Log Management</a></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-c894ac7172564532a7897d8082732a43.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-224bd7a8623549468fce2da1a7b293ce.html" target="element"> Contact Management</a></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-cf8a4db527cc4d1bba0fa8f6b41f47ad.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-37e3b66c056b468db7c5096e615f0189.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-c241d0902be74c31a013bc2dc590533e.html" target="element"> Organisational Governance content</a></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-c02fd851845b40c08bd603f7596ca5e6.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-5889ca3810d44e36876623b13fcfc7ae.html" target="element"> Digital Governance Plan</a></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+										</tr>
 							</tbody>
 						</table>
 					</div>

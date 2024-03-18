@@ -40,6 +40,9 @@
                     <!-- Properties -->
                     <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
 
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
 				</ul>
 
 				<!-- Tab panes -->
@@ -83,7 +86,7 @@ Furthermore, Workflow Management can be applied to the management of digital doc
 
 Overall, Workflow Management plays a crucial role in ensuring efficient IT interoperability within the European Commission's digital public service by automating and orchestrating various processes, data exchanges, authentication and authorization workflows, incident management, problem resolution, and document workflows.
 
-LOST view: OV-Functional Architecture Principles
+LOST view: TVA-Orchestration Enablers [Motivation]
 
 Identifier: http://data.europa.eu/dr8/egovera/WorkflowManagementBusinessService
 
@@ -110,7 +113,7 @@ dct:title: Workflow Management Digital Public Service
 								</tr>
 							</thead>
 							<tbody>
-								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/WorkflowManagementBusinessService</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:DigitalPublicBusinessService</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-07-06</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/WorkflowManagementBusinessService</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Workflow Management Digital Public Service</td></tr><tr><td>dct:type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">egovera:WorkflowManagementBusinessService</td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">EIRA Team</td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">One example of the application of Workflow Management in the context of IT interoperability within a digital public service in the European Commission is the management of data exchange between different systems and platforms. 
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/WorkflowManagementBusinessService</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-11-20</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/WorkflowManagementBusinessService</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Workflow Management Digital Public Service</td></tr><tr><td>dct:type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">egovera:WorkflowManagementBusinessService</td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">EIRA Team</td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">One example of the application of Workflow Management in the context of IT interoperability within a digital public service in the European Commission is the management of data exchange between different systems and platforms. 
 
 								In this scenario, Workflow Management can be used to automate and streamline the process of exchanging data between various IT systems, ensuring seamless interoperability. For instance, when a user submits a request for a specific service, the Workflow Management system can automatically trigger a series of actions and tasks to retrieve the necessary data from different systems, validate and process it, and then deliver the requested service to the user.
 
@@ -140,7 +143,234 @@ dct:title: Workflow Management Digital Public Service
 
 								6. Security and Compliance: Given the sensitive nature of public services, the workflow management system incorporates robust security measures to protect data privacy and ensure compliance with relevant regulations and policies. It may include access controls, encryption, audit trails, and secure data transmission protocols to safeguard information throughout the workflow lifecycle.
 
-								In summary, workflow management within the context of IT interoperability in a digital public service in the European Commission involves the systematic coordination, automation, and monitoring of tasks and activities to ensure efficient service delivery. It enables seamless collaboration, integration, and data exchange between different systems and stakeholders, while providing visibility, control, and analytics to optimize processes and enhance the overall effectiveness of the service.</td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Workflow management within the context of IT interoperability in a digital public service at the European Commission refers to the systematic coordination and automation of tasks, activities, and processes involved in the delivery of public services. It involves the design, implementation, and monitoring of workflows to ensure efficient and effective collaboration between different systems, applications, and stakeholders. Workflow management enables seamless integration and exchange of data, information, and documents across various IT systems, ensuring smooth and streamlined operations, improved decision-making, and enhanced service delivery to citizens and businesses.</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">OV-Functional Architecture Principles</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Organisational view [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">OV-Data Spaces</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">OV-Digital Public Services Catalogue</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Orchestration Enablers [Motivation]</td></tr>
+								In summary, workflow management within the context of IT interoperability in a digital public service in the European Commission involves the systematic coordination, automation, and monitoring of tasks and activities to ensure efficient service delivery. It enables seamless collaboration, integration, and data exchange between different systems and stakeholders, while providing visibility, control, and analytics to optimize processes and enhance the overall effectiveness of the service.</td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Workflow management within the context of IT interoperability in a digital public service at the European Commission refers to the systematic coordination and automation of tasks, activities, and processes involved in the delivery of public services. It involves the design, implementation, and monitoring of workflows to ensure efficient and effective collaboration between different systems, applications, and stakeholders. Workflow management enables seamless integration and exchange of data, information, and documents across various IT systems, ensuring smooth and streamlined operations, improved decision-making, and enhanced service delivery to citizens and businesses.</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-Orchestration Enablers [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">OV-Functional Architecture Principles</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Organisational view [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">OV-Data Spaces</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Organisational view</td></tr><tr><td>eira:eifLayer</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Organisational</td></tr><tr><td>skos:broader</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/DigitalPublicBusinessService</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-d4a9aea383a0486aa5fc41d209c8c3ca">
+																	<td><a href="../views/id-d4a9aea383a0486aa5fc41d209c8c3ca.html" target="view" title="TVA-Orchestration Enablers [Traceability]"> TVA-Orchestration Enablers [Traceability] </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-4b9fae85966b47089e8e6ea3786fa05f">
+																	<td><a href="../views/id-4b9fae85966b47089e8e6ea3786fa05f.html" target="view" title="Case and Workflow Management viewpoint"> Case and Workflow Management viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-0756c759a2ff4c2f871ba113b43efdf5">
+																	<td><a href="../views/id-0756c759a2ff4c2f871ba113b43efdf5.html" target="view" title="Organisational view [Motivation]"> Organisational view [Motivation] </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-824fc8dbd2c740d99f4ae664f9a9d87c">
+																	<td><a href="../views/id-824fc8dbd2c740d99f4ae664f9a9d87c.html" target="view" title="OV-Data Spaces"> OV-Data Spaces </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-a05a9507801b41f39ddd73577052897f">
+																	<td><a href="../views/id-a05a9507801b41f39ddd73577052897f.html" target="view" title="OV-Digital Public Services Catalogue"> OV-Digital Public Services Catalogue </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-cf8c4710c57045e1a9de75c52fc5c8b5">
+																	<td><a href="../views/id-cf8c4710c57045e1a9de75c52fc5c8b5.html" target="view" title="OV-Functional Architecture Principles viewpoint"> OV-Functional Architecture Principles viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-027e07678e50494b8ee7642769f6683e.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+											<td><a href="../elements/d43d5a66-233c-4613-908b-cc2c6b7ea5f5.html" target="element"> Availability</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-1aff5e5290194941b93e7d70cea0d8d9.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+											<td><a href="../elements/id-2cef70269a1c4abba76acedbe7dea1d2.html" target="element"> Artificial Intelligence Infrastructure Enablers</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-500c063e01934b448c47e46d715b09a2.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+											<td><a href="../elements/id-f296180604274bde8dda1334eeb14aec.html" target="element"> Artificial Intelligence Enablers</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-62ec5d25bd394615b5b182b15e3e8425.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+											<td><a href="../elements/id-4b9dfff30ab641f38f4601b5faed0428.html" target="element"> Analytics Infrastructure Enablers</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-8fbfa88f52454c28bba1e58f12af321e.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+											<td><a href="../elements/id-c9125b82a1064d6391c7dae29504ff4d.html" target="element"> Case and Workflow Management</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-3f754be98fc443a78614182547830cf4.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-73be6174a49b447ab2808891b77760db.html" target="element"> Business Agnostic Data Space Participant Digital Public Service Catalog</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-774ed72f5460488897dd18743d847ccd.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-e6ab5537e6b74b828956c4376d3871dd.html" target="element"> Business Agnostic Digital Public Services Catalogue</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-09fdec792e51428a8e07d035d583fa8e.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-c9aa72e2585e4cc5a8ae4f72ad3492a4.html" target="element"> Tax Organisational Agreements Catalogue</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-1ddd94bc5f3a42a69906f3ee2e06d9d9.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-cfa6f7e52e70485ebd5dc43a1eb9c2c8.html" target="element"> Management Infrastructure Enablers</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-232b9c28219d41448ebf592c9bcf4539.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-f55d8be30d24435d80909b34e6ae80bf.html" target="element"> National Legal Interoperability Agreement</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-243eb8d9b7b7406cb697de223c8e472d.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-8f7794b5c0764e4e9b9930bf357e5437.html" target="element"> Trust Infrastructure Enablers</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-27db0b5cc4ed4b1cb88e3af081d4b6f7.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-7424a2fc9fe74ab5904a47e4f6be272c.html" target="element"> National Schema on eIdentification</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-39c366056dbf4af7aefb170ac73f5b2c.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-224bd7a8623549468fce2da1a7b293ce.html" target="element"> Contact Management</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-4485c9d970bf4145a4f7addf7f204154.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-f415753b3c274c34b4843a38d08661dd.html" target="element"> Tax Digital Public Service Providers Catalogue</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-55a16b71af01478f8e086ca466bb5cae.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-915151f49cce4d179818d5d95f025cd2.html" target="element"> Directive (EU) 2016/2102 of the European Parliament and of the Council of 26 October 2016</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-5f0a5f71e9e94740bfa3f18695e1fefd.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-237ad354d33f437589d75c66979fc774.html" target="element"> Workflow Orchestration Infrastructure Enablers</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-62f28ad8c255403f9a50f1cd5ce90545.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-c0c5902a22d04810b293377fc7d2094b.html" target="element"> Regulation (EU) 2018/1807 of the European Parliament and of the Council of 14 November 2018</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-6af6309c9567445696354c2ee1049eb3.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-bfc87a9e12c94800a3a2acd55b6bb54a.html" target="element"> Tax Semantic Agreements Solutions</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-6f9eaabb776b44988f4ab9390d529189.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-11af58210ec74546b7bbb7553fffb337.html" target="element"> Schedule Management Enablers</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-7738ad8e22c84598914c5e69c90e2013.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-8546f32c10634915a05b03ea9f3fd025.html" target="element"> Security Data Policy Catalogue</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-7e27fad49c0a46ad9d470b5e0bc907e1.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-8a2936716ee04f06a573f599f1c49323.html" target="element"> Business Agnostic Data Policy Catalogue</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-9c7db8d32eb34c739833c75ad66d88c2.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-318a82a1a74f4bd7be88ac2318396d68.html" target="element"> Security Enablers</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-9c9338c3869343aabddf078e8bb5073b.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-e9259370b6314b7790f337924226538b.html" target="element"> Tax Digital Public Services Catalogue</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-b42ec8b2275c4e2a9f46e6e74d9760e3.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-e4b6d85315524249b71502e18d1783d0.html" target="element"> Privacy Enablers</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-bc1da5061c7448d5a0646c45504ffa1f.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-664d0fe13e114a3482b85630b87632f0.html" target="element"> Analytics Enablers</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-bce9df43f5b348a4aed83543308e1679.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-25398b5d11774335825b6e54642f55a5.html" target="element"> Orchestration Enablers</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-c03fa69805bf4afebce0f803f8ac1188.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-6365da58c309452d9d02b92eec13bdcf.html" target="element"> Tax Digital Public Service Consumers Catalogue</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-c7839cafaefd402884deed8f490518ac.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-c655ea252d764180a87a205e4ed98809.html" target="element"> Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-cdfa1f11ef434859b109ee5c821f0129.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-8af4e738170f41bf9bc596b2aef7c302.html" target="element"> Tax Legal Agreements Catalogue</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-ce66aa2371394b779919a8b0e1d9ec64.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-15cd0c5ce9e94aee96cece65e2b987de.html" target="element"> Business Agnostic Organisational Agreement Catalogue</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-d6fbe73d166e4a6487cbf656460ccc1f.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-1a422cc5076e480db497793fea533e87.html" target="element"> Dataspace Enablers</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-dcb93554d20d4699940206ed94da6d96.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-de74ee0ee0f14945906d8176c42c9181.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-f6b1705ae62345f19a95572b9c8347e7.html" target="element"> National Schema on the access to Base Registries</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-e2729fcd835c4966ba8bd88daa983371.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-5f89e83e1a9c4e6bb0c71dc6399a86b3.html" target="element"> API Enablers</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-ef94708ce8f945f895f97799a0d009b0.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-7394e884a6134184bbb5730e70be6891.html" target="element"> Privacy Data Policy Catalogue</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-f5f09eca859441de9fa37f1f30b06c88.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-93ba5a8715fb44edab4280ad1db903ff.html" target="element"> Workflow Management</a></td>
+											<td><a href="../elements/id-e9d9a86485854b0b892383dd41980094.html" target="element"> Workflow Management</a></td>
+										</tr>
 							</tbody>
 						</table>
 					</div>
