@@ -40,6 +40,9 @@
                     <!-- Properties -->
                     <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
 
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
 				</ul>
 
 				<!-- Tab panes -->
@@ -79,7 +82,7 @@ Moreover, the platform could provide functionalities for tracking and monitoring
 
 Overall, the implementation of a centralized eInvoicing platform within the European Commission's digital public service would enhance IT interoperability by enabling seamless electronic exchange of invoices, integration with existing systems, and ensuring compliance with standards and regulations.
 
-LOST view: OV-Functional Architecture Principles
+LOST view: TVA-API Enablers [Motivation]
 
 Identifier: http://data.europa.eu/dr8/egovera/EInvoicingBusinessService
 
@@ -106,7 +109,7 @@ dct:title: eInvoicing Digital Public Service
 								</tr>
 							</thead>
 							<tbody>
-								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/EInvoicingBusinessService</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:DigitalPublicBusinessService</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-07-04</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/EInvoicingBusinessService</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eInvoicing Digital Public Service</td></tr><tr><td>dct:type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">egovera:EInvoicingBusinessService</td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">European Commission</td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap">https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/What+is+eInvoicing</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">One example of the application of eInvoicing within the context of IT interoperability in a digital public service at the European Commission could be the implementation of a centralized eInvoicing platform. This platform would enable the electronic exchange of invoices between the European Commission and its suppliers, ensuring seamless interoperability between different IT systems.
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/EInvoicingBusinessService</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2023-11-20</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/egovera/EInvoicingBusinessService</td></tr><tr><td>dct:title</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eInvoicing Digital Public Service</td></tr><tr><td>dct:type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">egovera:EInvoicingBusinessService</td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">European Commission</td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap">https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/What+is+eInvoicing</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">One example of the application of eInvoicing within the context of IT interoperability in a digital public service at the European Commission could be the implementation of a centralized eInvoicing platform. This platform would enable the electronic exchange of invoices between the European Commission and its suppliers, ensuring seamless interoperability between different IT systems.
 
 								Through this platform, suppliers could submit their invoices electronically in a standardized format, such as the European standard for eInvoicing (EN16931). The platform would then automatically validate and process these invoices, ensuring compliance with relevant regulations and standards.
 
@@ -130,7 +133,221 @@ dct:title: eInvoicing Digital Public Service
 
 								By promoting eInvoicing, the European Commission aims to foster a digital single market, where businesses can seamlessly trade across borders without unnecessary barriers. It encourages the adoption of eInvoicing by both public and private entities, offering guidance, support, and technical resources to facilitate the transition from traditional paper-based invoicing to electronic processes.
 
-								Overall, eInvoicing within the context of IT interoperability is a digital public service provided by the European Commission to enable the electronic exchange of standardized invoices. It aims to streamline invoicing processes, reduce administrative burdens, and enhance efficiency, ultimately contributing to the creation of a digital single market within the European Union.</td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eInvoicing enables public organisations to issue, transmit and deliver electronic invoice documents in a structured data format to its providers/suppliers, according to European standards.</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">OV-Functional Architecture Principles</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Organisational view [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">OV-Digital Public Services Catalogue</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-API Enablers [Motivation]</td></tr>
+								Overall, eInvoicing within the context of IT interoperability is a digital public service provided by the European Commission to enable the electronic exchange of standardized invoices. It aims to streamline invoicing processes, reduce administrative burdens, and enhance efficiency, ultimately contributing to the creation of a digital single market within the European Union.</td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eInvoicing enables public organisations to issue, transmit and deliver electronic invoice documents in a structured data format to its providers/suppliers, according to European standards.</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVA-API Enablers [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">OV-Functional Architecture Principles</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Organisational view [Motivation]</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Organisational view</td></tr><tr><td>eira:eifLayer</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Organisational</td></tr><tr><td>skos:broader</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/DigitalPublicBusinessService</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-a05a9507801b41f39ddd73577052897f">
+																	<td><a href="../views/id-a05a9507801b41f39ddd73577052897f.html" target="view" title="OV-Digital Public Services Catalogue"> OV-Digital Public Services Catalogue </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-cf8c4710c57045e1a9de75c52fc5c8b5">
+																	<td><a href="../views/id-cf8c4710c57045e1a9de75c52fc5c8b5.html" target="view" title="OV-Functional Architecture Principles viewpoint"> OV-Functional Architecture Principles viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-dda83056855b47ac989c5e9edd5d250f">
+																	<td><a href="../views/id-dda83056855b47ac989c5e9edd5d250f.html" target="view" title="Digital Invoicing"> Digital Invoicing </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-0756c759a2ff4c2f871ba113b43efdf5">
+																	<td><a href="../views/id-0756c759a2ff4c2f871ba113b43efdf5.html" target="view" title="Organisational view [Traceability]"> Organisational view [Traceability] </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-334efcf0eaa24757864e280bbb2073a5">
+																	<td><a href="../views/id-334efcf0eaa24757864e280bbb2073a5.html" target="view" title="TVA-API Enablers [Traceability]"> TVA-API Enablers [Traceability] </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-7f8ab20131084cd3824aa0819914b29a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+											<td><a href="../elements/c073c753-1472-4e29-a4f1-d9d1ce5c083e.html" target="element"> Invoice</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-2b0dd3b4df844a4b9c98c18a411983ac.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+											<td><a href="../elements/id-8a2936716ee04f06a573f599f1c49323.html" target="element"> Business Agnostic Data Policy Catalogue</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-347ea7d4786546f8b899c61836449763.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+											<td><a href="../elements/id-15cd0c5ce9e94aee96cece65e2b987de.html" target="element"> Business Agnostic Organisational Agreement Catalogue</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-cf56bea833c64cad83633c8a754eba19.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+											<td><a href="../elements/id-f044895bbad64de082f6eb03135b26f8.html" target="element"> Agreement of the Use on Common Infrastructure</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-cf8a4db527cc4d1bba0fa8f6b41f47ad.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+											<td><a href="../elements/id-77f5621fcfa0414bb7b63b81cb93eb0e.html" target="element"> Agreement on Data Sharing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-d19b7c70c5d547c4a69f9b686bc9b5d5.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+											<td><a href="../elements/id-6c0de37c062e435e96040cb22c9b0d6c.html" target="element"> Business Agnostic Business Information Base</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-5dcfc6fd7bcf4223b2b0f306e4d9e145.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+											<td><a href="../elements/id-0686a2e0fdc341529fb19d916c4edad8.html" target="element"> Digital Invoicing</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-9ae03705f84e438ba12338a0c472316c.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-e6ab5537e6b74b828956c4376d3871dd.html" target="element"> Business Agnostic Digital Public Services Catalogue</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-08bd6da826db4053a9d44709c4af3c47.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-f55d8be30d24435d80909b34e6ae80bf.html" target="element"> National Legal Interoperability Agreement</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-1994831715d04370adc08efeee0a3a36.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-a6252fe04f384316acd1aa1f01fcc442.html" target="element"> Trust Enablers</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-1e2bd0366f5e47efbfad248db78cf345.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-7424a2fc9fe74ab5904a47e4f6be272c.html" target="element"> National Schema on eIdentification</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-2d0a4f1f04bc4bad89263cc8a6a2e3b7.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-237ad354d33f437589d75c66979fc774.html" target="element"> Workflow Orchestration Infrastructure Enablers</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-30ae0d175d944de99b3eada320ec4001.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-cfa6f7e52e70485ebd5dc43a1eb9c2c8.html" target="element"> Management Infrastructure Enablers</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-3ad71ce531564d279e81d24b0f0788db.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-8f7794b5c0764e4e9b9930bf357e5437.html" target="element"> Trust Infrastructure Enablers</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-4b6991de26534bf6a69d969120f4cdc5.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-8af4e738170f41bf9bc596b2aef7c302.html" target="element"> Tax Legal Agreements Catalogue</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-5c1addbdb9b1414891fde0b3d161d7a5.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-f415753b3c274c34b4843a38d08661dd.html" target="element"> Tax Digital Public Service Providers Catalogue</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-5ec17ed72b1b4fa1a4366921e60bed8b.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-7acf1f1095e340f58aa7826bb6019b23.html" target="element"> Tax Business Information Base</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-60aaef71c502480ab654ed0785c7dbc2.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-3cd60e22267e47af9fb267757e47af7a.html" target="element"> Commission Recommendation 87/598/EEC of 8 December 1987</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-734bae0e76104ca8b68757e3f68cd082.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-ffd489fbc24a49c6aa4089b5b6d5f6d1.html" target="element"> Identity and Access Infrastructure Enablers</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-7745b94088ea4cbea9fee846c3577db8.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-4b9dfff30ab641f38f4601b5faed0428.html" target="element"> Analytics Infrastructure Enablers</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-8330b71cc4ec4f30b5d8ff4d04a0a5ea.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-e9259370b6314b7790f337924226538b.html" target="element"> Tax Digital Public Services Catalogue</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-8a0d7c7e4daa477d92d5389fb4211ff8.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-7394e884a6134184bbb5730e70be6891.html" target="element"> Privacy Data Policy Catalogue</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-8e83703158ce47ed8b1256312a087227.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-8546f32c10634915a05b03ea9f3fd025.html" target="element"> Security Data Policy Catalogue</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-9a584cd5d3cd4f5e85862758898ded57.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-0ab374e224194459a80ae38cee35c083.html" target="element"> Regulation (EU) 2022/2065 of the European Parliament and of the Council of 19 October 2022</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-9b6bf21eb55f499f9c8449c7c519f738.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-c9aa72e2585e4cc5a8ae4f72ad3492a4.html" target="element"> Tax Organisational Agreements Catalogue</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-9ebeae28a7224d7ca14b2f6945d2f0f3.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-2cef70269a1c4abba76acedbe7dea1d2.html" target="element"> Artificial Intelligence Infrastructure Enablers</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-a53493535d34444aabf9421016b06b1f.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-1a422cc5076e480db497793fea533e87.html" target="element"> Dataspace Enablers</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-b47f360009324079a119ee659ee6ac4a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-6a1f58b5f7c44ec382909a5f5a2be489.html" target="element"> Metadata</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-bd62e35884fe4ee59ce92be696b06b3a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-e8ce35fae36142ae8c6bb458ebf594b0.html" target="element"> Blockchain Infrastructure Enablers</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-bfef6689cdb34d8b8582c29821594a04.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-f2701bd2162849449d6d064de841cdbd.html" target="element"> Directive 2014/55/EU of the European Parliament and of the Council of 16 April 2014</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-c59243d260aa4c5093647943a7c53c97.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-0c19aa6a56974beda41b169365736b4e.html" target="element"> Regulation (EU) 2021/1230 of the European Parliament and of the Council of 14 July 2021</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-ce8059283e014a68a25bfc3e0ac73d7a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-5f89e83e1a9c4e6bb0c71dc6399a86b3.html" target="element"> API Enablers</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-f9273e66993648d888841f7f3c7755f0.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-e73d65927833494c882c3724705f8baa.html" target="element"> Directive (EU) 2015/2366 of the European Parliament and of the Council of 25 November 2015</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-690308e71ae74d84b1428d11c5250ae5.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-edef61e5442a477e8a73f654c3af8939.html" target="element"> eInvoicing</a></td>
+											<td><a href="../elements/id-040f1c5d80b94b188b94d1fbb94c602a.html" target="element"> eInvoicing</a></td>
+										</tr>
 							</tbody>
 						</table>
 					</div>
