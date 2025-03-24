@@ -90809,12 +90809,7 @@ Narrative:  &#xD;
 &#xD;
 These different Architecture Building Blocks define the [Organisational Governance content] and [Organisational Functional content], both aggregated with [Shared Organisational Content]. Each of these Architecture Building Blocks can have any [Interoperability Specification] associated, which is realised by a [Solution Building Block]. </documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="[A] How to read the model" id="id-7c3f0c23f8674ec299eb33e000d16bfd">
-      <child xsi:type="archimate:Note" id="id-d688d1e5b9d447d2aa01488e792e0a8f" font="1|Segoe UI Black|16.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI Black" fontColor="#000000" lineColor="#5c5c5c" textAlignment="1" fillColor="#ffffb5">
-        <bounds x="66" y="24" width="3247" height="133"/>
-        <feature name="gradient" value="0"/>
-        <content>HOW TO ACCESS/READ eGOVERA REFERENCE ARCHITECTURES AND MODELS BASED ON THEM</content>
-      </child>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Areas of concern per role" id="id-7c3f0c23f8674ec299eb33e000d16bfd">
       <child xsi:type="archimate:DiagramObject" id="id-fbc44b70065147bfa846c5566b597924" targetConnections="id-9330c6229d3b437eaeb4c31640043250" font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#5c5c5c" archimateElement="id-509c5285ef5f48e9af536721bb26c001">
         <bounds x="66" y="420" width="1201" height="1044"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-71cb0f4f1c1f44e6829d18f2dfd35392" source="id-fbc44b70065147bfa846c5566b597924" target="id-f812cc3f05b5412d8b1de5afc2df8e45" archimateRelationship="id-11e6c613cf7e4d19981aea802b2202f1"/>
